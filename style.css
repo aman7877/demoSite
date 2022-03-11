@@ -4,9 +4,13 @@ header{
 }
 ul{
     display: flex;
-    
     justify-content: space-evenly;
     list-style-type: none;
+}
+
+li:hover{
+    cursor: pointer;
+    color: red;
 }
 nav{
     width: 60vw;
@@ -28,4 +32,15 @@ nav{
 }
 p{
     font-size: x-large;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 4rem;
+}
+footer>p{
+    padding: 1rem;
+    
 }
